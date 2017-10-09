@@ -71,33 +71,50 @@
 ```
 <template>
   <div class="page page-hello">
-    <-- 静态资源路径写法事例 -->
-    <img src="~assets/images/copyfiles/logo.png">
-    <-- 组件用法 -->
-    <UserCard /> or <user-card><user-card/>
+    <!-- 静态资源路径写法事例 -->
+    <img src="~@assets/images/copyfiles/logo.png">
+    <p></p>
+    <!-- 组件用法 -->
+    <send-code class="button button-default" v-model="start" @click.native="handleSendCode"></send-code>
   </div>
 </template>
 
 <script>
-  // js文件路径写法事例
-  
+  /**
+   * 以下仅为事例代码，可以随意扩展修改
+   */
+
   // 工具类
-  import { formatTime } from 'utils';
+  import {formatTime} from 'utils';
   // 组件
-  import UserCard from '@components/userCard';
+  import SendCode from '@components/SendCode';
   // 服务
-  import { login } from 'services';
-  
+  import {login} from 'services';
+
   export default {
     data() {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        msg: 'Welcome to Your Vue.js App',
+        start: false
+      }
+    },
+    methods: {
+      handleLogin() {
+        login({
+          username: 'demo',
+          password: '123456'
+        }).then((res) => {
+          this.message = formatTime(res && res.login_time);
+        });
+      },
+      handleSendCode() {
+        setTimeout(() => {
+          this.start = true;
+        }, 1000);
       }
     },
     components: {
-      UserCard 
-      或
-      'user-card': UserCard  
+      'send-code': SendCode
     }
   }
 </script>
