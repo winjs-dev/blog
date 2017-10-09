@@ -97,7 +97,7 @@
     components: {
       UserCard 
       或
-      ‘user-card’: UserCard  
+      'user-card': UserCard  
     }
   }
 </script>
