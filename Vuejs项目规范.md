@@ -1,4 +1,4 @@
-# 项目规范
+# Vuejs项目规范
 
 一、首先全局安装 cloud-cli
 
@@ -28,10 +28,10 @@
     │  ├─js              # 不通过npm下载的第三方js文件      
     │  └─less            # 样式文件
     └─modules            # 项目的功能模块及业务模块
-        ├─component      # 组件，统一采用小驼峰（切记），如userCard
+        ├─component      # 组件，统一采用小驼峰或用中划线连接，如userCard或user-card
         │  └─userCard
         ├─filters        # 过滤器
-        ├─lang           # 国际化或者文字提示
+        ├─lang           # 国际化或者用于文字提示
         ├─router  
         ├─services       # 服务请求（针对于axios的封装）
         └─views          # 页面page，统一采用小驼峰（切记），helloWorld
@@ -42,7 +42,7 @@
 
 - [magicless](https://github.com/cklwblove/magicless) less的mixins集合
 
-- [cloud-utils](https://github.com/cloud-templates/cloud-utils) 常用的js工具类函数集，详见[api](https://cloud-templates.github.io/cloud-utils/)
+- [cloud-utils](https://github.com/cloud-templates/cloud-utils) 常用的js工具类函数集，详见[api具体说明文档](https://cloud-templates.github.io/cloud-utils/)
 
 五、项目中尽量用**绝对路径**，这里搭配webapck自带的**路径别名**及**文件别名**可以很容易实现这一点，并且写法很简单。具体如下（webpack.base.js）：
 
@@ -71,15 +71,20 @@
 ```
 <template>
   <div class="page page-hello">
+    <-- 静态资源路径写法事例 -->
     <img src="~assets/images/copyfiles/logo.png">
+    <-- 组件用法 -->
+    <UserCard /> or <user-card><user-card/>
   </div>
 </template>
 
 <script>
+  // js文件路径写法事例
+  
   // 工具类
   import { formatTime } from 'utils';
   // 组件
-  import MessageBox from '@components/messageBox';
+  import UserCard from '@components/userCard';
   // 服务
   import { login } from 'services';
   
@@ -88,15 +93,22 @@
       return {
         msg: 'Welcome to Your Vue.js App'
       }
+    },
+    components: {
+      UserCard 
+      或
+      ‘user-card’: UserCard  
     }
   }
 </script>
 
-<style scoped lang="less" rel="stylesheet/less">
+<style lang="less" rel="stylesheet/less">
   @import "./style.less";
 </style>
 
 ```
+
+**Note**: [Vuejs官方编码指南](https://cn.vuejs.org/v2/style-guide/index.html)
 
 
 
