@@ -67,7 +67,7 @@ var foo = [1, 2],
 var item = new Object();
 
 // good
-// var item = {};
+var item = {};
 ```
 
 
