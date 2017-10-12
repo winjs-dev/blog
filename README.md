@@ -12,6 +12,12 @@
 
 ## `webpack` 系列文章
 
+- [webpck官方文档](https://doc.webpack-china.org/)
+
+- [搜罗一切webpack的好文章好工具](https://github.com/webpack-china/awesome-webpack-cn/)
+
+- [Webpack 大法之 Code Splitting](https://zhuanlan.zhihu.com/p/26710831/)
+
 
 ## `javascript` 系列文章
 
