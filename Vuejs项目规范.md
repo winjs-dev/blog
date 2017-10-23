@@ -28,8 +28,8 @@
     │  ├─js              # 不通过npm下载的第三方js文件      
     │  └─less            # 样式文件
     └─modules            # 项目的功能模块及业务模块
-        ├─component      # 组件，统一采用小驼峰或用中划线连接，如userCard或user-card
-        │  └─userCard
+        ├─component      # 组件，统一采用大驼峰或用中划线连接，如SendCode或send-code
+        │  └─SendCode
         ├─filters        # 过滤器
         ├─lang           # 国际化或者用于文字提示
         ├─router  
