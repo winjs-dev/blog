@@ -5,7 +5,7 @@
 > 记录平常用到的前端技术等内容
 
 
-## `npm` 系列文章 
+## `npm` 系列文章
 
 - [package.json文件](http://javascript.ruanyifeng.com/nodejs/packagejson.html)
 
@@ -17,6 +17,10 @@
 
 
 ## `webpack` 系列文章
+
+- [手摸手，带你用合理的姿势使用webpack4（下）](https://segmentfault.com/a/1190000015919928)
+
+- [手摸手，带你用合理的姿势使用webpack4（上）](https://segmentfault.com/a/1190000015919863)
 
 - [webpck官方文档](https://doc.webpack-china.org/)
 
@@ -34,8 +38,15 @@
 
 ## `nodejs` 系列文章
 
+- [Node.js 前端开发指南](https://mp.weixin.qq.com/s/4yXWhBuBqVRoQB3krVgNpA)
+
 
 ## `css` 系列文章
+
+
+## `微信小程序` 系列文章
+
+- [微信小程序资源汇总](https://segmentfault.com/a/1190000012177307)
 
 
 ##  工具类，技巧类系列文章
