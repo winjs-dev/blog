@@ -36,6 +36,9 @@
 - [如何编写更加自解释的代码](http://bubkoo.com/2016/09/08/15-ways-to-write-self-documenting-javascript/)
 
 
+- [JavaScript 引擎基础：原型优化](https://mp.weixin.qq.com/s/9VB3_M04qegMw8_mA7qYgw)
+
+
 ## `nodejs` 系列文章
 
 - [CSS垂直居中技巧，我只会23个，你会几个？](https://mp.weixin.qq.com/s/CvLXXDV_0J-rF-85AWjgsw)
