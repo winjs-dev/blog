@@ -38,6 +38,10 @@
 
 - [JavaScript 引擎基础：原型优化](https://mp.weixin.qq.com/s/9VB3_M04qegMw8_mA7qYgw)
 
+- [JavaScript 有用的代码片段和 trick](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554779&idx=3&sn=5f9a35263e990316e1599291bbfb507b&chksm=8025541ab752dd0c6a3987c4e689a10847a0de24817eb0be00f101aeaa36c2ec829517c7def7&mpshare=1&scene=23&srcid=08293lHnH1JHOOurDpQcHbBa#rd)
+
+- [精读《高性能 javascript》](https://mp.weixin.qq.com/s?__biz=MjM5NTEwMTAwNg==&mid=2650215180&idx=1&sn=dd93b983b109250a76653b2251cf44a4&chksm=befe132d89899a3b6f4fad6e4887fb24f15301ff8c47af729190a0370e34fa7ddffb5ded1dd1&mpshare=1&scene=23&srcid=0829HGcuYfYC35Ux6y9sV19q#rd)
+
 
 ## `nodejs` 系列文章
 
