@@ -42,6 +42,10 @@
 
 - [精读《高性能 javascript》](https://mp.weixin.qq.com/s?__biz=MjM5NTEwMTAwNg==&mid=2650215180&idx=1&sn=dd93b983b109250a76653b2251cf44a4&chksm=befe132d89899a3b6f4fad6e4887fb24f15301ff8c47af729190a0370e34fa7ddffb5ded1dd1&mpshare=1&scene=23&srcid=0829HGcuYfYC35Ux6y9sV19q#rd)
 
+- [使用 JavaScript 的代价！（2018 版）](https://mp.weixin.qq.com/s/0RMTdFa82kTjXdJ_x6vYWg)
+
+- [一口(很长的)气了解 Babel](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651229696&idx=1&sn=6ab1df09ade3fe2aa1bf8004802bb26b&chksm=bd4957848a3ede920c1b061d64ea792a9424d3376c2953f82660055e724334c49493329d7057&mpshare=1&scene=23&srcid=0830pH9r78Uvy9f5r4r2g4HT#rd)
+
 
 ## `nodejs` 系列文章
 
