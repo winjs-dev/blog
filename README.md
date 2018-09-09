@@ -64,6 +64,8 @@
 
 - [微信小程序资源汇总](https://segmentfault.com/a/1190000012177307)
 
+- [近两万字小程序攻略发布了](https://juejin.im/post/5b8fd1416fb9a05cf3710690)
+
 ##  工具类，技巧类系列文章
 
 
