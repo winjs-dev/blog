@@ -46,6 +46,8 @@
 
 - [一口(很长的)气了解 Babel](https://mp.weixin.qq.com/s?__biz=MjM5MTA1MjAxMQ==&mid=2651229696&idx=1&sn=6ab1df09ade3fe2aa1bf8004802bb26b&chksm=bd4957848a3ede920c1b061d64ea792a9424d3376c2953f82660055e724334c49493329d7057&mpshare=1&scene=23&srcid=0830pH9r78Uvy9f5r4r2g4HT#rd)
 
+- [【资源集合】 ES6 元编程（Proxy & Reflect & Symbol）](https://segmentfault.com/a/1190000016133613)
+
 ## `vue`系列文章
 
 - [Vue 的钩子函数](https://mp.weixin.qq.com/s?__biz=MzA5NzkwNDk3MQ==&mid=2650588051&idx=1&sn=13f7ab94282f5f4c3b3ad8fc4024ad72&chksm=8891d3b7bfe65aa111e76c87d2df97c4ef119f57197017d9cade7666f8b274a87d7b502601ea&mpshare=1&scene=23&srcid=0907MCKvAhOawaPl9dtJ7OJU#rd)
