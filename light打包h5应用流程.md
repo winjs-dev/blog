@@ -20,9 +20,9 @@
 1. h5项目打包获得dist文件
 2. 将h5包上传至对应服务器（访问地址为“url”）
 3. 按照文档创建开发工程（light create -n AppDemo -t app）
-4. 修改native——config.js文件中navBar属性（对应应用中导航栏的样式）
+4. 修改native——config.js文件中的views——index——url置为“url” + “?open_by_device=true”（此为直接访问对应服务器地址）、navBar属性（对应应用中导航栏的样式）
 5. 按照文档编译和打包工程（light release --product -p）
-6. 编辑解压后打包后文件夹中的Resource——gmu——web.gmu文件（pages——inputParams——startPage修改为“url” + “?open_by_device=true”，此为直接访问对应服务器地址）（navigationbar属性的show为true时，后续集成出来的应用才有导航栏）
+6. 当应用需要导航栏时，将解压后打包后文件夹中的navigationbar属性的show置为true
 7. 重新压缩为App包
 
 ## 二、构建应用
