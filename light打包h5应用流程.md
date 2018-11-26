@@ -37,7 +37,7 @@
 ## 三、更多操作
 1. 修改应用图标：项目文件中修改native——assets——res——icon.png（引用配置在native——config.js文件中）
 2. 修改启动页：项目文件中修改native——assets——res——launch.png（引用配置在native——config.js文件中）
-3. 新增引导页：[参考文档](https://document.lightyy.com/app_dev_jsn/content/she_zhi_icon_yu_qi_dong_tu.html)
+3. 新增引导页：[参考文档](https://document.lightyy.com/app_dev_jsn/content/she_zhi_guide.html)
 
 **备注**：
 1. 由于light版本会更新，则代码结构可能会跟上述不一致
