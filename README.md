@@ -82,6 +82,8 @@
 
 - [H5 前端性能测试实践](https://segmentfault.com/a/1190000016163966)
 
+- [浏览器页面资源加载过程与优化](https://juejin.im/post/5a4ed917f265da3e317df515)
+
 
 ## `后端` 系列文章
 
