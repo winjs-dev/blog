@@ -15,6 +15,7 @@
 
 - [nvm 设置下载 node 的镜像地址](https://github.com/xhlwill/blog/issues/7)
 
+- [NodeJs交互式命令行工具Inquirer.js-开箱指南](http://www.jianshu.com/p/db8294cfa2f7)
 
 ## `webpack` 系列文章
 
@@ -35,6 +36,9 @@
 
 - [如何编写更加自解释的代码](http://bubkoo.com/2016/09/08/15-ways-to-write-self-documenting-javascript/)
 
+- [service worker初探：超级拦截器与预缓存](https://smallpath.me/post/service-worker-precache)
+
+- [Vue.js 2.0 独立构建和运行时构建的区别](https://jingsam.github.io/2016/10/23/standalone-vs-runtime-only-build-in-vuejs2.html)
 
 - [JavaScript 引擎基础：原型优化](https://mp.weixin.qq.com/s/9VB3_M04qegMw8_mA7qYgw)
 
