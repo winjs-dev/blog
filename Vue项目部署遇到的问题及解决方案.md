@@ -14,7 +14,7 @@ hash 和 history 两种模式都是基于**浏览器**自身的属性，`vue-rou
 
 这两种模式在开发环境下都没有什么太大的问题，但是当部署到生产环境中后，两者有所不同。
 
-hash 模式部署没有什么问题，只要访问到服务器上的 index.html，就可以访问网站了。
+hash 模式部署没有什么问题，只要访问到服务器上的 index.html，就可以访问网站了。 
 history 模式下，前端的 URL 必须和实际向后端发起请求的 URL 一致，如 `http://www.example.com/user/id`。如果后端缺少对 `/user/id` 的路由处理，将返回 404 错误。
 > 不过这种模式要玩好，还需要后台配置支持……所以呢，你要在服务端增加一个覆盖所有情况的候选资源：如果 URL 匹配不到任何静态资源，则应该返回同一个 index.html 页面，这个页面就是你 app 依赖的页面。- [Vue-Router](https://router.vuejs.org/zh/guide/essentials/history-mode.html)
 
@@ -24,7 +24,7 @@ history 模式下，前端的 URL 必须和实际向后端发起请求的 URL �
 因此，现把解决的思路总结下，虽然 [官网](https://router.vuejs.org/zh/guide/essentials/history-mode.html#%E5%90%8E%E7%AB%AF%E9%85%8D%E7%BD%AE%E4%BE%8B%E5%AD%90) 上给出了解决方案，但在实际的编码中也遇到了一些问题。
 
 ### 根目录下
-当项目在根目录下部署的时候（如 http://www.example.com/）,`vue` 的相关文件默认不需要修改，修改的是后端，这里以 nginx 为例。
+当项目在根目录下部署的时候（如 `http://www.example.com/`）,`vue` 的相关文件默认不需要修改，修改的是后端，这里以 nginx 为例。
 
 ```bash
 location / {
