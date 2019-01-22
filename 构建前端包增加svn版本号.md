@@ -15,7 +15,8 @@ const HtmlWebpackInlineCodePlugin  = require('html-webpack-inline-code-plugin')
 
 // 获取当前SVN版本信息
 exports.getSvnInfo = function() {
-  const svnUrl = 'https://192.168.57.168/BrokerNet/iSeeRobotAdvisor/trunk/Sources/web/h5-isee-financial-component';
+  // 项目的 svn 绝对路径
+  const svnUrl = 'https://**/h5-isee-financial-component';
   const info = svnInfo.sync(svnUrl, 'HEAD');
 
   return info;
