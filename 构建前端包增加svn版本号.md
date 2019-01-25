@@ -23,11 +23,12 @@ exports.getSvnInfo = function() {
 }
 
 // script 代码插入到 html 中
-new HtmlWebpackInlineCodePlugin  ({
+new HtmlWebpackInlineCodePlugin({
   headTags: [{
     tagName: 'script',
     tagCode: `window.__version=${exports.getSvnInfo().lastChangedRev}`
-}]
+  }]
+})
 ```
 
 **最终可以在控制台里，打印出来版本信息。(console.log(window.__version))**
