@@ -65,7 +65,7 @@ https://app.lightyy.com/appDist/ShowSoloApp?appName=com.hundsun.light.lightIn.ap
  });
  虽然light集成了ajax请求，但是这个太基础了，我们要想统一处理接口请求，还要重新拿出来封装和定制；
 ```
-  ### 9、ight路由
+  ### 9、jsN路由
 ``` bash
 vue-router是集成在light里面的，在jsN里面使用完全是是两码事了，页面的跳转要在index.html里面根据页面的名称添加view标签，view标签的id值对应页面的名称，添加完新的页面，需要打包运行才能生效；
 在index.html里面添加新的视图：
