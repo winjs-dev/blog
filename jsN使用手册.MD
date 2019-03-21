@@ -87,7 +87,7 @@ light-sdk文档：https://document.lightyy.com/app_dev_jsn/content/shi_yong_duan
 app配置文档（文档比较老，打包时遇到问题要问light开发）：
 https://document.lightyy.com/app_dev_jsn/content/she_zhi_introduction.html
 ```
- ###12、light图表库
+###12、light图表库
 ``` bash
 目前只支持light-chart（是light结合f2开发的一个图表库），这个插件目前没有文档，怎么用只能看项目示例，12点会给出
 https://document.lightyy.com/light_chart_ref/index.html
