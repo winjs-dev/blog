@@ -87,19 +87,19 @@ light-sdk文档：https://document.lightyy.com/app_dev_jsn/content/shi_yong_duan
 app配置文档（文档比较老，打包时遇到问题要问light开发）：
 https://document.lightyy.com/app_dev_jsn/content/she_zhi_introduction.html
 ```
-###12、light图表库
+### 12、light图表库
 ``` bash
 目前只支持light-chart（是light结合f2开发的一个图表库），这个插件目前没有文档，怎么用只能看项目示例，12点会给出
 https://document.lightyy.com/light_chart_ref/index.html
 ```
-###13、项目示例：
+### 13、项目示例：
 ``` bash
  因为light官网给出的示例太旧，现在已经运行不起来了，去询问light开发，他们给出了一个新的网址：
  https://git01.hundsun.com/light/light-demo-os/tree/master，目前这个网址上也只有一个demo（chart.js）能够运行起来：
 ```
  
  
-###总结：
+### 总结：
  - jsN必须依赖light框架，至于整个体系怎么编译运行了，要去看第2点那几个插件；因为全部是插件集成，所以jsN开发不支持项目构建的定制化；
  - 页面开发依赖light-sdk, lighting-ui, light-chart这些插件, light提供的ajax方法太简单，需要我们重新封装；
  - app打包依照light-app打包方式；
