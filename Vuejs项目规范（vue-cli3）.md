@@ -2,7 +2,7 @@
 
 **注意：此项目规范适用于 `vue-cli3`，使用的项目脚手架是 [vue-preset](https://github.com/cloud-templates/vue-preset)**
 
-一、首先全局安装 vue-cli
+### 一、首先全局安装 vue-cli
 
 > npm install -g @vue/cli
 
@@ -10,11 +10,11 @@
 
 > vue --version
 
-二、下载vue项目模板
+### 二、下载vue项目模板
 
 > vue create --preset cloud-templates/vue-preset my-project
 
-三、
+### 三、
 
 ```
 .
@@ -38,12 +38,12 @@
         └── hello
 ```
 
-四、项目模板`package.json dependencies`内置常用的工具集
+### 四、项目模板`package.json dependencies`内置常用的工具集
 
 - [magicless](https://github.com/cklwblove/magicless) less的mixins集合
 - [cloud-utils](https://github.com/cloud-templates/cloud-utils) 常用的js工具类函数集，详见[api具体说明文档](https://cloud-templates.github.io/cloud-utils/)
 
-五、项目中尽量用**绝对路径**，这里搭配webapck自带的**路径别名**及**文件别名**可以很容易实现这一点，并且写法很简单。具体如下（`vue.config.js`）：
+### 五、项目中尽量用**绝对路径**，这里搭配webapck自带的**路径别名**及**文件别名**可以很容易实现这一点，并且写法很简单。具体如下（`vue.config.js`）：
 
 ```
   alias: {
@@ -180,7 +180,7 @@
 
 ```
 
-六、开发指南
+### 六、开发指南(*建议*)
 
 ##### 组件数据
 
