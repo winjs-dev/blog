@@ -1,5 +1,7 @@
 # Vuejs项目规范
 
+**注意：此项目规范适用于 `vue-cli2`，使用的项目脚手架是 [vue-template](https://github.com/cloud-templates/vue-template)**
+
 一、首先全局安装 vue-cli
 
 > npm install -g vue-cli
