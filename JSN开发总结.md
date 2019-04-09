@@ -58,7 +58,7 @@ text-overflow: ellipsis;
 
 8：**文字内容**必须只能放在`text`标签内，因为后续会编译成`native`的对应元素
 
-9：所有父级元素默认均带`display:flex;`属性
+9：所有**父级元素**默认均带`display:flex;`属性
 
 10：`JSN`部分所有`dom`元素后续都会编译成`native`的元素，因此`DOM`层级越少性能越好，尽量减少嵌套
 
@@ -70,7 +70,7 @@ text-overflow: ellipsis;
 
 2：release可同时编译出`H5`和`JSN`代码，-p命令后直接访问index.html为`H5`入口，app.native.js为`JSN`入口
 
-3：`project.json`中plugin去掉`jsn即`H5`开发模式
+3：`project.json`中plugin去掉`jsn`即`H5`开发模式
 
 4：`JSN`框架打包出的 `H5`包，start会监听壳子device ready事件，\_startNow不会监听此事件，因此现场有个现象是用start方法在壳子上访问时白屏，改成\_startNow后就正常了，但后续了解到，如果正常情况来讲，壳子访问`H5`都会走桥接层的deviceready事件的，start按理说也没问题，具体原因需要他们去检查下，我们后续还用start就好了
 
@@ -106,7 +106,7 @@ https://git01.hundsun.com/liwb/jsn-xy-poc/ （这次POC的项目，用[light-jsn
 
 ## 使用`JSN`框架工程直接改为纯`H5`的相关问题
 
-实际开发中涉及到了用`JSN`框架临时改为纯`H5`的情况（与`JSN`打包出的`H5`部分不同，不涉及框架转换一层的过程，访问速度上快了20%），只需将`project.json`中plugin的`JSN`ative去掉即可，但后续改动样式的工作量较多
+实际开发中涉及到了用`JSN`框架临时改为纯`H5`的情况（与`JSN`打包出的`H5`部分不同，不涉及框架转换一层的过程，访问速度上快了20%），只需将`project.json`中plugin的`JSNative`去掉即可，但后续改动样式的工作量较多
 
 1：标签不同，如`text、image、list`以及相应动态绑定的事件
 
