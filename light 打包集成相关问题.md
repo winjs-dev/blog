@@ -203,4 +203,8 @@ $ light release --product -p
             1.png
             2.png
   ```
+---
+
+添加 `LIGHT_LICENSE` 到 项目目录的 `native`里
+20190709 by liwb
   
