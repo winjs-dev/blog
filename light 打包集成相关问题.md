@@ -205,6 +205,5 @@ $ light release --product -p
   ```
 ---
 
-添加 `LIGHT_LICENSE` 到 项目目录的 `native`里
-20190709 by liwb
-  
+*NOTE*: 添加 `LIGHT_LICENSE` 到 项目的 `native` 目录里
+
